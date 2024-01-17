@@ -11,3 +11,75 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Add this CSS code to your existing styles or create a new stylesheet */
+
+/* Game Container */
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Game Board */
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Square */
+.square {
+  font-size: 2em;
+  padding: 10px;
+  margin: 5px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Square Hover Effect */
+.square:hover {
+  background-color: #e0e0e0;
+}
+
+/* Result Display */
+.result {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Board Rows */
+.board-row {
+  display: flex;
+}
+
+/* Game Info (Moves List) */
+.game-info {
+  margin-left: 20px;
+}
+
+/* Moves List */
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Moves List Buttons */
+.button {
+  font-size: 1em;
+  padding: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+/* Moves List Buttons Hover Effect */
+.button:hover {
+  background-color: #45a049;
+}
